@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+Your task is to create a simple one-page forum that allows users to register, log in, publish posts, and edit/delete them.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The application is going to have three pages:
 
-## Available Scripts
+1. Register page - a page that allows a new user to register with a unique username and password.
+2. Login page - a page that allows a registered user to connect the application after a username and password validation.
+3. Forum page - a page that allows a logged-in user to create a new post, see other posts made by other users.
+   A user can also edit/delete his posts.
 
-In the project directory, you can run:
+Here is an example of all three pages:
+https://i.ibb.co/JBM2v0d/mock.png
 
-### `yarn start`
+To get started:
+Clone this repo https://github.com/gididaf/dream-test using git clone
+Run npm install OR yarn
+Run npm start OR yarn start to start the client
+Run npm run start:server OR yarn start:server to start the server
+In your browser, go to http://localhost:3000
+Happy coding :)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Notes:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. The client-side already contains SCSS support if you would like to style your app a little.
+2. The client-side already has an AJAX example with Axios so that you can use it for all your AJAX calls.
+3. Consider using React Router (https://reactrouter.com/docs/en/v6/getting-started/tutorial) for the three application pages.
 
-### `yarn test`
+4. The server-side contains a global var called database. You can use it to simulate a database and store all the users/posts data there or use some advanced technic like https://www.npmjs.com/package/node-json-db
+5. You don't have to mess with sessions/cookies handling if you don't want to. You can use local storage or another simple method to save the logged-in user and verify it on AJAX requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. Don't forget that new users cannot register with a taken username. And don't forget a user can edit/delete only his posts.
 
-### `yarn build`
+Bonus: Add the ability for users to comment on each post.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+When you have done, please send a zip file to
+gidi@dreamvps.com
+Or push your code anywhere
